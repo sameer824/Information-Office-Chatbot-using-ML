@@ -1,0 +1,1796 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey"
+            ],
+            "responses": [
+                "hello!",
+                "hi there!",
+                "hey! how can i assist you?"
+            ]
+        },
+        {
+            "tag": "chatbot_name",
+            "patterns": [
+                "name",
+                "",
+                "tell name"
+            ],
+            "responses": [
+                "i am chatbot.",
+                "my name is chatbot.",
+                "you can call me chatbot."
+            ]
+        },
+        {
+            "tag": "purpose",
+            "patterns": [
+                "",
+                "created",
+                "purpose"
+            ],
+            "responses": [
+                "i am here to assist and provide information.",
+                "my purpose is to help you with your queries.",
+                "i was created to be a helpful virtual assistant."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "old",
+                "born",
+                "'s age"
+            ],
+            "responses": [
+                "i am a virtual entity, so i don't have an age.",
+                "i don't age as humans do.",
+                "i exist only in the digital realm, so age is not applicable to me."
+            ]
+        },
+        {
+            "tag": "language_understanding",
+            "patterns": [
+                "understand",
+                "understand human language",
+                "able comprehend 'm saying"
+            ],
+            "responses": [
+                "yes, i am designed to understand natural language.",
+                "indeed, i can comprehend and respond to human language.",
+                "understanding human language is one of my capabilities."
+            ]
+        },
+        {
+            "tag": "favorite_subject",
+            "patterns": [
+                "favorite subject",
+                "favorite subject",
+                "subject like"
+            ],
+            "responses": [
+                "as an ai, i don't have preferences, including favorite subjects.",
+                "i am neutral and do not have personal preferences like humans do.",
+                "subjects are not applicable to me as an ai language model."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell joke",
+                "share funny joke",
+                "joke time"
+            ],
+            "responses": [
+                "why don't scientists trust atoms? because they make up everything!",
+                "what do you call fake spaghetti? an impasta!",
+                "why don't some couples go to the gym? because some relationships don't work out!"
+            ]
+        },
+        {
+            "tag": "thanking",
+            "patterns": [
+                "thank",
+                "thanks lot",
+                "appreciate help"
+            ],
+            "responses": [
+                "you're welcome!",
+                "glad i could be of assistance.",
+                "anytime! feel free to ask if you need further help."
+            ]
+        },
+        {
+            "tag": "user_info",
+            "patterns": [
+                "tell name",
+                "'s age",
+                "know location"
+            ],
+            "responses": [
+                "i'm sorry, but i donot have access to personal information like your name age or location",
+                "i donot store or remember user specific details",
+                "i prioritize user privacy, and i am designed not to retain personal data"
+            ]
+        },
+        {
+            "tag": "personalized responses",
+            "patterns": [
+                "remember",
+                "recognize",
+                "remember conversation"
+            ],
+            "responses": [
+                "as an ai i donot have the ability to remember individuals or past conversations",
+                "i don't have memory each interaction is treated as a new session",
+                "i am stateless meaning i dont retain any information between interactions"
+            ]
+        },
+        {
+            "tag": "future enhancements",
+            "patterns": [
+                "get smarter",
+                "future update",
+                "improve time"
+            ],
+            "responses": [
+                "as an ai my capabilities can be enhanced through updates and improvements",
+                "yes developers are constantly working to improve my abilities",
+                "the ai field is ever evolving and i may receive updates to become more advanced in the future"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "see later"
+            ],
+            "responses": [
+                "goodbye",
+                "take care",
+                "see you soon"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank",
+                "thanks lot",
+                "appreciate"
+            ],
+            "responses": [
+                "you're welcome",
+                "anytime",
+                "glad i could help"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "assist",
+                "need help"
+            ],
+            "responses": [
+                "sure, i'm here to help",
+                "of course, how can i assist you",
+                "what do you need help with"
+            ]
+        },
+        {
+            "tag": "faq",
+            "patterns": [
+                "",
+                "tell service",
+                "faq"
+            ],
+            "responses": [
+                "our service provides...",
+                "here's some information about our product...",
+                "frequently asked questions"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                " weather like today",
+                "weather forecast",
+                "weather update"
+            ],
+            "responses": [
+                "the weather today is...",
+                "the forecast for the next few days is...",
+                "here's the current weather update"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "issue",
+                "want file complaint",
+                "complain service"
+            ],
+            "responses": [
+                "i'm sorry to hear that please tell me more about the issue",
+                "your complaint has been registered. we'll look into it",
+                "we apologize for any inconvenience caused let's resolve this together"
+            ]
+        },
+        {
+            "tag": "admissions",
+            "patterns": [
+                "apply admission",
+                "admission requirement",
+                "application deadline",
+                "guide admission process"
+            ],
+            "responses": [
+                "to apply for admission, please visit our website and fill out the online application form",
+                "the admission requirements depend on the program you are interested in. you can find detailed information on our website.",
+                "the application deadline varies for different programs please check our website for the specific deadline",
+                "sure! i'd be happy to help you with the admission process what program are you interested in?"
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "course university offer",
+                "tell course engineering department",
+                "new course introduced year"
+            ],
+            "responses": [
+                "we offer a wide range of courses in various departments, including engineering, arts, sciences bba llb it softwere engineering english math pharmacy alote more",
+                "the engineering department offers courses such as computer science electrical engineering mechanical engineering softwere engineering  civil engineering etc",
+                "yes we introduce new courses every year to keep up with the latest trends and advancements in different fields"
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "tuition fee international student",
+                "pay fee",
+                "financial aid scholarship available"
+            ],
+            "responses": [
+                "the tuition fees for international students vary depending on the program and level of study you can find detailed information on our website.",
+                "you can pay your fees online through banks or at the university's finance office",
+                "yes we offer various financial aid options and scholarships for eligible studens please check our website or visit our office for more details."
+            ]
+        },
+        {
+            "tag": "general",
+            "patterns": [
+                "office hour",
+                "contact university information office",
+                "university located",
+                "campus tour available"
+            ],
+            "responses": [
+                "our office hours are from monday to friday, 9 am to 5 pm",
+                "you can contact the university information office by phone at  +92-61-111-477-786 or via email at info@isp.edu.pk",
+                "the university is located at 9-km bosan road multan, pakistan",
+                "yes we offer campus tours for prospective students. please  website or contact the admissions office"
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "i'm sorry i don't have the information you requested please contact the university information office for assistance"
+            ]
+        },
+        {
+            "tag": "student life",
+            "patterns": [
+                "tell student life campus",
+                "student club organization",
+                "recreational facility available student"
+            ],
+            "responses": [
+                "student life on campus is vibrant and diverse you'll have opportunities to engage in various extracurricular activities and events.",
+                "yes we have a wide range of student clubs and organizations that cater to different interests including academic cultural and sports clubs",
+                "we have state-of-the-art recreational facilities including a gymnasium sports fields and leisure areas for students to stay active and healthy"
+            ]
+        },
+        {
+            "tag": "faculties",
+            "patterns": [
+                "many faculty university",
+                "tell faculty pharmacy",
+                "research opportunity science faculty"
+            ],
+            "responses": [
+                "the university has several faculties covering various fields including science arts engineering medicine and more",
+                "the faculty of medicine offers comprehensive medical education and training with experienced faculty members",
+                "the science faculty provides excellent research opportunities for students interested in scientific exploration and innovation"
+            ]
+        },
+        {
+            "tag": "international students",
+            "patterns": [
+                "many international student enrolled",
+                "support service available international student",
+                "tell international student exchange program"
+            ],
+            "responses": [
+                "we have a diverse community of international students from different countries contributing to a global learning environment",
+                "the university provides dedicated support services for international students including orientation programs and academic advising.",
+                "we offer international student exchange programs with partner universities worldwide providing opportunities to study abroad for a semester or a year."
+            ]
+        },
+        {
+            "tag": "academic_calendar",
+            "patterns": [
+                "academic calendar upcoming semester",
+                "class begin next academic session",
+                "tell holiday schedule"
+            ],
+            "responses": [
+                "the academic calendar for the upcoming semester can be found on our website under the academics section",
+                "please visit account office for this ",
+                "the holiday schedule includes breaks for major holidays such as winter break spring break and summer vacation"
+            ]
+        },
+        {
+            "tag": "research opportunities",
+            "patterns": [
+                "research opportunity undergraduate student",
+                "get involved research project",
+                "tell research funding graduate student"
+            ],
+            "responses": [
+                "yes there are research opportunities available for undergraduate students in various departments you can inquire with your professors or visit the research office for more information.",
+                "getting involved in research projects often starts by expressing your interest to your professors and exploring ongoing research initiatives",
+                "graduate students have access to research funding through grants scholarships and assistantships offered by the university and external organizations"
+            ]
+        },
+        {
+            "tag": "career services",
+            "patterns": [
+                "university offer career service student",
+                "get help resume job search",
+                "career fair organized campus"
+            ],
+            "responses": [
+                "yes the university provides comprehensive career services to assist students in their career development and job search",
+                "you can avail help with your resume cover letter and job search through the career services office or career counselors",
+                "career fairs are organized on campus where students can connect with employers and explore job opportunities in different industries"
+            ]
+        },
+        {
+            "tag": "campus security",
+            "patterns": [
+                "campus safe",
+                "security measure place campus",
+                "report security concern"
+            ],
+            "responses": [
+                "the safety and security of our campus community are a top priority we have dedicated security personnel and surveillance systems to ensure a safe environment.",
+                "security measures include regular patrols emergency response plans and access control to campus buildings",
+                "if you have any security concerns or need to report an incident you can contact campus security  visit the security office in person."
+            ]
+        },
+        {
+            "tag": "financial aid",
+            "patterns": [
+                "financial aid option available student financial need",
+                "apply financial aid",
+                "tell workstudy program"
+            ],
+            "responses": [
+                "financial aid options include scholarships grants and loans for students with financial need eligible students can apply for these opportunities.",
+                "to apply for financial aid you need to complete the free application for federal student aid   the university's financial aid application",
+                "work-study programs provide students with part-time job opportunities on campus to help cover their educational expenses"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sport facility available campus",
+                "tell intramural sport activity",
+                "sport scholarship athlete"
+            ],
+            "responses": [
+                "we have state of the-art sports facilities including a gymnasium sports fields and courts for various sports activities",
+                "intramural sports activities allow students to participate in friendly competitions and recreational sports within the university community",
+                "yes we offer sports scholarships for exceptional athletes who demonstrate outstanding performance in their respective sports"
+            ]
+        },
+        {
+            "tag": "study abroad",
+            "patterns": [
+                "study abroad program student",
+                "apply semester abroad",
+                "tell exchange opportunity partner university"
+            ],
+            "responses": [
+                "yes we offer study abroad programs that allow students to experience education and culture in different countries",
+                "to apply for a semester abroad you can contact the study abroad office and meet the application requirements",
+                "we have exchange opportunities with partner universities across the globe, providing students with a valuable international experience"
+            ]
+        },
+        {
+            "tag": "health services",
+            "patterns": [
+                "health service available campus",
+                "health center clinic",
+                "access mental health support"
+            ],
+            "responses": [
+                "we have a health center on campus that provides medical services and basic healthcare for students",
+                "the health center offers a range of medical services including general check-ups and treatment for common illnesses",
+                "for mental health support we have counselors and psychologists available to provide counseling and support to students in need."
+            ]
+        },
+        {
+            "tag": "library services",
+            "patterns": [
+                "resource available university library",
+                "borrow book library",
+                "access online journal database"
+            ],
+            "responses": [
+                "the university library offers a vast collection of books e-books, academic journals research papers and multimedia resources.",
+                "yes through interlibrary loan services you can borrow books and materials from other libraries if they are not available in our library",
+                "access to online journals and databases is available to students and faculty through the university's library website using your university credentials."
+            ]
+        },
+        {
+            "tag": "cs it department",
+            "patterns": [
+                "course computer science department offer",
+                "tell infrastructure campus",
+                "get involved csit research project"
+            ],
+            "responses": [
+                "the computer science department offers a wide range of courses including programming data structures algorithms artificial intelligence and software engineering",
+                "the it infrastructure on campus is equipped with the latest technology and resources to support students and faculty in their academic and research endeavors",
+                "to get involved in cs it research projects you can approach faculty members or visit the research office to explore ongoing research opportunities"
+            ]
+        },
+        {
+            "tag": "internships",
+            "patterns": [
+                "internship opportunity csit student",
+                "tell company offer internship csit student",
+                "prepare csit internship"
+            ],
+            "responses": [
+                "yes there are internship opportunities available for cs it students in collaboration with various companies and organizations",
+                "we have partnerships with leading tech companies that frequently offer internships to our cs/it students",
+                "to prepare for cs/it internships, you can enhance your technical skills work on projects and seek guidance from the career services office."
+            ]
+        },
+        {
+            "tag": " cs department faculty members",
+            "patterns": [
+                "tell c department faculty member csit department",
+                "renowned researcher professor csit department",
+                "contact specific c department faculty member"
+            ],
+            "responses": [
+                "the cs/it department has a team of highly qualified and experienced faculty members who are passionate about teaching and research",
+                "yes the department includes renowned researchers and professors who have made significant contributions to the field of computer science and information technology",
+                "you can find contact information for specific faculty members on the university website or through the department's administrative office"
+            ]
+        },
+        {
+            "tag": "coding competitions",
+            "patterns": [
+                "coding competition hackathons organized csit department",
+                "tell recent coding event university",
+                "participate coding competition"
+            ],
+            "responses": [
+                "yes the cs/it department regularly organizes coding competitions hackathons and programming challenges to promote student involvement in coding and problem-solving",
+                "recently, we held a coding competition that attracted participants from various universities showcasing their programming skills and creativity",
+                "to participate in coding competitions you can register for upcoming events announced by the cs/it department or join coding clubs and organizations on campus"
+            ]
+        },
+        {
+            "tag": "software development",
+            "patterns": [
+                "software development tool available csit student",
+                "tell software project developed csit student",
+                "contribute opensource project"
+            ],
+            "responses": [
+                "cs/it students have access to a wide range of software development tools and platforms including ides version control systems and project management tools.",
+                "cs/it students have developed innovative software projects including mobile apps web applications and software solutions for real world problems",
+                "to contribute to open-source projects you can explore popular open source repositories on platforms like github and actively participate in their development"
+            ]
+        },
+        {
+            "tag": "english department",
+            "patterns": [
+                "course english department offer",
+                "tell literature course available",
+                "major english"
+            ],
+            "responses": [
+                "the english department offers a diverse range of courses including british literature american literature creative writing and linguistics",
+                "we have several literature courses that explore classic and contemporary literary works poetry and literary analysis",
+                "to major in english you can declare your major through the university's academic advising office and select english as your field of study."
+            ]
+        },
+        {
+            "tag": "english department faculty members",
+            "patterns": [
+                "tell english department faculty member english department",
+                "renowned author professor english department",
+                "contact specific english department faculty member"
+            ],
+            "responses": [
+                "the english department has a team of dedicated and accomplished faculty members who are passionate about literature and language studies.",
+                "yes the department includes renowned authors, scholars, and professors who have published significant works and contributed to the field of english literature.",
+                "you can find contact information for specific faculty members on the university website or through the department's administrative office."
+            ]
+        },
+        {
+            "tag": "creative writing workshops",
+            "patterns": [
+                "creative writing workshop offered english department",
+                "tell recent creative writing event university",
+                "participate creative writing workshop"
+            ],
+            "responses": [
+                "yes the english department regularly conducts creative writing workshops and events to nurture students writing skills and creativity",
+                "recently we held a creative writing symposium that featured readings and discussions by aspiring writers and published authors",
+                "to participate in creative writing workshops you can check the english department's event calendar and register for upcoming workshops"
+            ]
+        },
+        {
+            "tag": "language studies",
+            "patterns": [
+                "language study program available",
+                "tell language exchange program",
+                "improve language skill"
+            ],
+            "responses": [
+                "language studies programs include courses in english as a second language (esl) foreign languages and applied linguistics",
+                "language exchange programs provide opportunities to immerse yourself in different cultures and improve language proficiency through interaction with native speakers.",
+                "to improve your language skills you can participate in language conversation clubs language workshops and language related events offered by the english department."
+            ]
+        },
+        {
+            "tag": "academic upport",
+            "patterns": [
+                "academic support available english department student",
+                "get help essay writing research paper",
+                "tell academic advising english major"
+            ],
+            "responses": [
+                "yes academic support services are available to english department students, including tutoring writing centers and research assistance",
+                "you can seek help with essay writing research papers and academic writing from the writing center or writing tutors",
+                "academic advising for english majors is provided by faculty advisors who guide students in course selection academic planning and career development"
+            ]
+        },
+        {
+            "tag": "racist language",
+            "patterns": [
+                " racial slurs",
+                "hateful comments about race",
+                "offensive racial language"
+            ],
+            "responses": [
+                "We do not tolerate racist language on this platform.",
+                "Please refrain from using offensive racial slurs."
+            ]
+        },
+        {
+            "tag": "profanity",
+            "patterns": [
+                "explicit profanity",
+                "curse words",
+                "offensive language"
+            ],
+            "responses": [
+                "We maintain a respectful environment Please avoid using profanity",
+                "Profanity is not allowed here"
+            ]
+        },
+        {
+            "tag": "hate speech",
+            "patterns": [
+                "hateful speech",
+                "discriminatory comments",
+                "derogatory language"
+            ],
+            "responses": [
+                "Hate speech is not tolerated Please respect our guidelines",
+                "We promote inclusivity and reject hate speech"
+            ]
+        },
+        {
+            "tag": "bullying",
+            "patterns": [
+                "cyberbullying",
+                "threatening messages",
+                "harassment online"
+            ],
+            "responses": [
+                "Cyberbullying and harassment are not allowed Please treat others with respect",
+                "We have a zero tolerance policy for bullying"
+            ]
+        },
+        {
+            "tag": "sexually explicit",
+            "patterns": [
+                "explicit sexual content",
+                "inappropriate remarks",
+                "offensive sexual language"
+            ],
+            "responses": [
+                "Inappropriate sexual content is against our rules Please maintain a respectful tone",
+                "Sexually explicit language is not permitted"
+            ]
+        },
+        {
+            "tag": "homophobic language",
+            "patterns": [
+                "offensive comments about sexual orientation",
+                "homophobic slurs",
+                "derogatory language about sexuality"
+            ],
+            "responses": [
+                "We do not tolerate homophobic language Please be respectful of all sexual orientations",
+                "Homophobic slurs are not allowed here"
+            ]
+        },
+        {
+            "tag": "threats",
+            "patterns": [
+                "threats of violence",
+                "harmful intent",
+                "violent language"
+            ],
+            "responses": [
+                "Threats of violence are taken seriously Please refrain from using harmful language",
+                "We prioritize safety and do not allow threats"
+            ]
+        },
+        {
+            "tag": "cyberbullying",
+            "patterns": [
+                "cyberbullying",
+                "harassment online",
+                "offensive online behavior"
+            ],
+            "responses": [
+                "Cyberbullying is against our rules Please treat others with kindness and respect",
+                "We have a zero-tolerance policy for cyberbullying"
+            ]
+        },
+        {
+            "tag": "religious intolerance",
+            "patterns": [
+                "intolerant comments about religion",
+                "offensive religious remarks",
+                "derogatory language about faith"
+            ],
+            "responses": [
+                "Religious intolerance is not permitted Please respect diverse beliefs and faiths",
+                "We promote understanding and reject religious intolerance"
+            ]
+        },
+        {
+            "tag": "body_shaming",
+            "patterns": [
+                "body-shaming",
+                "insults based on appearance",
+                "offensive comments about bodies"
+            ],
+            "responses": [
+                "Body-shaming is unacceptable Please be respectful of others' appearances",
+                "We do not tolerate body shaming"
+            ]
+        },
+        {
+            "tag": "cyberharassment",
+            "patterns": [
+                "cyberharassment",
+                "online harassment",
+                "persistent offensive comments"
+            ],
+            "responses": [
+                "Cyberharassment is against our rules Please report any harassing behavior",
+                "We have a reporting system for cyberharassment"
+            ]
+        },
+        {
+            "tag": "gender slurs",
+            "patterns": [
+                "slurs based on gender",
+                "offensive gender-related language",
+                "derogatory comments about gender"
+            ],
+            "responses": [
+                "Gender slurs are not permitted. Please treat all genders with respect.",
+                "We do not allow derogatory language based on gender."
+            ]
+        },
+        {
+            "tag": "political hate",
+            "patterns": [
+                "hateful political comments",
+                "offensive political language",
+                "derogatory remarks about politics"
+            ],
+            "responses": [
+                "We do not tolerate hateful political comments Please engage in respectful discourse",
+                "Political hate speech is not allowed"
+            ]
+        },
+        {
+            "tag": "cyberbullying",
+            "patterns": [
+                "cyberbullying",
+                "harassment online",
+                "offensive online behavior"
+            ],
+            "responses": [
+                "Cyberbullying is against our rules Please treat others with kindness and respect",
+                "We have a zero-tolerance policy for cyberbullying"
+            ]
+        },
+        {
+            "tag": "spam",
+            "patterns": [
+                "spammy comments",
+                "repetitive messages",
+                "irrelevant content"
+            ],
+            "responses": [
+                "Please refrain from spammy behavior Keep the conversation relevant and meaningful"
+            ]
+        },
+        {
+            "tag": "explicit insult",
+            "patterns": [
+                "You're a piece of s***",
+                "You're so ugly",
+                "You're worthless",
+                "You're a disgrace"
+            ],
+            "responses": [
+                "Let's keep the conversation civil and respectful Insults are not acceptable.",
+                "Inappropriate language won't be tolerated here. Please be respectful in your communication."
+            ]
+        },
+        {
+            "tag": "vulgar language",
+            "patterns": [
+                "Suck my d***",
+                "F*** off",
+                "B****",
+                "C***"
+            ],
+            "responses": [
+                "We do not allow the use of vulgar language Please engage in a respectful conversation.",
+                "Vulgar language is not permitted here Let's maintain a respectful tone."
+            ]
+        },
+        {
+            "tag": "hateful  comments",
+            "patterns": [
+                "I hope you die",
+                "You should kill yourself",
+                "You're a cancer",
+                "You're a burden"
+            ],
+            "responses": [
+                "We take hateful comments seriously. Please refrain from making harmful statements.",
+                "Hate speech and harmful comments are not allowed here."
+            ]
+        },
+        {
+            "tag": "racial slurs",
+            "patterns": [
+                "N-word",
+                "Racial slurs",
+                "Derogatory racial language"
+            ],
+            "responses": [
+                "Racial slurs and derogatory language are strictly prohibited Please respect all races and ethnicities.",
+                "We have a zero tolerance policy for racial slurs and hate speech."
+            ]
+        },
+        {
+            "tag": "religious insults",
+            "patterns": [
+                "Religious insults",
+                "You worship a fake god",
+                "You're a religious fanatic"
+            ],
+            "responses": [
+                "Religious insults and derogatory comments about faith are not allowed. Please be respectful of all religions.",
+                "We promote religious tolerance and reject insults based on faith."
+            ]
+        },
+        {
+            "tag": "gender offensive",
+            "patterns": [
+                "Sexist remarks",
+                "Derogatory comments about gender",
+                "You're such a girl"
+            ],
+            "responses": [
+                "Sexist and gender-based insults are against our rules Please respect all genders.",
+                "We do not allow derogatory language based on gender."
+            ]
+        },
+        {
+            "tag": "age discrimination",
+            "patterns": [
+                "Ageist comments",
+                "You're too old for this",
+                "You're just a kid"
+            ],
+            "responses": [
+                "Ageist comments are not permitted. Please respect people of all ages.",
+                "We reject age discrimination and promote respectful conversation."
+            ]
+        },
+        {
+            "tag": "disability offense",
+            "patterns": [
+                "Disability insults",
+                "You're disabled so you're useless",
+                "You're mentally ill"
+            ],
+            "responses": [
+                "Insults related to disabilities are not allowed. Please be respectful and considerate of others.",
+                "We have a zero-tolerance policy for disability-based insults."
+            ]
+        },
+        {
+            "tag": "fat shaming",
+            "patterns": [
+                "You're so fat",
+                "Fat-shaming",
+                "Lose weight, you pig"
+            ],
+            "responses": [
+                "Body-shaming and fat-shaming are not acceptable Please respect people of all body types.",
+                "We do not tolerate comments related to body shaming."
+            ]
+        },
+        {
+            "tag": "homophobic slurs",
+            "patterns": [
+                "Homophobic slurs",
+                "Derogatory language about sexuality",
+                "You're such a f****t"
+            ],
+            "responses": [
+                "Homophobic slurs and derogatory language about sexuality are strictly prohibited Please respect all sexual orientations.",
+                "We have a zero-tolerance policy for homophobic slurs and hate speech."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "sameer ahmad a student of isp computer science department "
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me isp bot.",
+                "I'm isp bot",
+                "I am a isp chatbot.",
+                "I am your helper"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of unversity",
+                "what is university timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the  university  open",
+                " university  timing",
+                "what about  university  timing",
+                "is  university  open on saturday",
+                "tell something about  university  timing",
+                "what is the  university   hours",
+                "when should i come to  university ",
+                "when should i attend  university ",
+                "what is my  university  time",
+                " university  timing",
+                "timing  university "
+            ],
+            "responses": [
+                " university  is open 9am-3pm Monday to friday! also university offer weekend classes"
+            ]
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact  university ",
+                " university  telephone number",
+                " university  number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                " university  phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "You can contact at: +92-61-47460001-5"
+            ]
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                "list of courses",
+                "list of courses offered",
+                "list of courses offered in",
+                "what are the courses offered in your  university ?",
+                "courses?",
+                "courses offered",
+                "courses offered in (your univrsity(UNI) name)",
+                "courses you offer",
+                "branches?",
+                "courses available at UNI?",
+                "branches available at your  university ?",
+                "what are the courses in UNI?",
+                "what are branches in UNI?",
+                "what are courses in UNI?",
+                "branches available in UNI?",
+                "can you tell me the courses available in UNI?",
+                "can you tell me the branches available in UNI?",
+                "computer engineering?",
+                "computer",
+                "Computer engineering?",
+                "it",
+                "IT",
+                "Information Technology",
+                "AI/Ml",
+                "Mechanical engineering",
+                "Chemical engineering",
+                "Civil engineering"
+            ],
+            "responses": [
+                "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering llb phycology fasion designing short courses phyarmacy "
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                " university  fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees",
+                "What is the fees of hostel",
+                "how much is the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room",
+                "fees for Ac room for girls",
+                "fees for non-Ac room for girls",
+                "fees for Ac room for boys",
+                "fees for non-Ac room for boys"
+            ],
+            "responses": [
+                "For Fee details visit account office of university in admin ground floor"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the  university  located",
+                " university  is located at",
+                "where is  university ",
+                "where is  university  located",
+                "address of  university ",
+                "how to reach  university ",
+                " university  location",
+                " university  address",
+                "wheres the  university ",
+                "how can I reach  university ",
+                "whats is the  university  address",
+                "what is the address of  university ",
+                "address",
+                "location"
+            ],
+            "responses": [
+                "10 km  bosan road kyayaban e yusuf multan punjab "
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "hostel facility",
+                "hostel servive",
+                "hostel location",
+                "hostel address",
+                "hostel facilities",
+                "hostel fees",
+                "Does  university  provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "do you guys have hostel",
+                "hostel",
+                "hostel capacity",
+                "what is the hostel fee",
+                "how to get in hostel",
+                "what is the hostel address",
+                "how far is hostel from  university ",
+                "hostel  university  distance",
+                "where is the hostel",
+                "how big is the hostel",
+                "distance between  university  and hostel",
+                "distance between hostel and  university "
+            ],
+            "responses": [
+                "For hostel detail visit isp information office for more details"
+            ]
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "events organised",
+                "list of events",
+                "list of events organised in  university ",
+                "list of events conducted in  university ",
+                "What events are conducted in  university ",
+                "Are there any event held at  university ",
+                "Events?",
+                "functions",
+                "what are the events",
+                "tell me about events",
+                "what about events"
+            ],
+            "responses": [
+                "For event detail visit event management society in block c"
+            ]
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "document to bring",
+                "documents needed for admision",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admision",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What document are required for admission",
+                "Which document to bring for admission",
+                "documents",
+                "what documents do i need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "To know more about document required visit university website www.ispmultan.com"
+            ]
+        },
+        {
+            "tag": "floors",
+            "patterns": [
+                "size of campus",
+                "building size",
+                "How many floors does  university  have",
+                "floors in  university ",
+                "floors in  university ",
+                "how tall is UNI's  university  of Engineering  university  building",
+                "floors"
+            ],
+            "responses": [
+                "My  university  has total 4 floors "
+            ]
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "Syllabus for IT",
+                "what is the Information Technology syllabus",
+                "syllabus",
+                "timetable",
+                "what is IT syllabus",
+                "syllabus",
+                "What is next lecture"
+            ],
+            "responses": [
+                "Timetable provide direct to the students OR To know about syllabus visit cordinator office or visit university website www.ispmultan.com "
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have library",
+                "does the  university  have library facility",
+                " university  library",
+                "where can i get books",
+                "book facility",
+                "Where is library",
+                "Library",
+                "Library information",
+                "Library books information",
+                "Tell me about library",
+                "how many libraries"
+            ],
+            "responses": [
+                "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+            ]
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is  university  infrastructure",
+                "infrastructure",
+                " university  infrastructure"
+            ],
+            "responses": [
+                "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+            ]
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in  university ",
+                "Does  university  have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Food",
+                "Cafetaria"
+            ],
+            "responses": [
+                "Our university has canteen with variety of food available"
+            ]
+        },
+        {
+            "tag": "menu",
+            "patterns": [
+                "food menu",
+                "food in canteen",
+                "Whats there on menu",
+                "what is available in  university  canteen",
+                "what foods can we get in  university  canteen",
+                "food variety",
+                "What is there to eat?"
+            ],
+            "responses": [
+                "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+            ]
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is  university  placement",
+                "Which companies visit in  university ",
+                "What is average package",
+                "companies visit",
+                "package",
+                "About placement",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                "To know about placement visit <a target=\"www.ispmultan.com\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+            ]
+        },
+        {
+            "tag": "ithod",
+            "patterns": [
+                "Who is HOD",
+                "Where is HOD",
+                "it hod",
+                "name of it hod"
+            ],
+            "responses": [
+                "All engineering departments have only one hod XYZ who available on (Place name)"
+            ]
+        },
+        {
+            "tag": "computerhod",
+            "patterns": [
+                "Who is computer HOD",
+                "Where is computer HOD",
+                "computer hod",
+                "name of computer hod"
+            ],
+            "responses": [
+                "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+            ]
+        },
+        {
+            "tag": "extchod",
+            "patterns": [
+                "Who is extc HOD",
+                "Where is  extc HOD",
+                "extc hod",
+                "name of extc hod"
+            ],
+            "responses": [
+                "Different school wise hod are different.So be more clear with your school or department"
+            ]
+        },
+        {
+            "tag": "principal",
+            "patterns": [
+                "what is the name of principal",
+                "whatv is the principal name",
+                "principal name",
+                "Who is  university  principal",
+                "Where is principal's office",
+                "principal",
+                "name of principal"
+            ],
+            "responses": [
+                "XYZ is  university  principal and if you need any help then call your branch hod first.That is more appropriate"
+            ]
+        },
+        {
+            "tag": "sem",
+            "patterns": [
+                "exam dates",
+                "exam schedule",
+                "When is semester exam",
+                "Semester exam timetable",
+                "sem",
+                "semester",
+                "exam",
+                "when is exam",
+                "exam timetable",
+                "exam dates",
+                "when is semester"
+            ],
+            "responses": [
+                "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "what is the process of admission",
+                "what is the admission process",
+                "How to take admission in your  university ",
+                "What is the process for admission",
+                "admission",
+                "admission process"
+            ],
+            "responses": [
+                "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+            ]
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "scholarship",
+                "Is scholarship available",
+                "scholarship engineering",
+                "scholarship it",
+                "scholarship ce",
+                "scholarship mechanical",
+                "scholarship civil",
+                "scholarship chemical",
+                "scholarship for AI/ML",
+                "available scholarships",
+                "scholarship for computer engineering",
+                "scholarship for IT engineering",
+                "scholarship for mechanical engineering",
+                "scholarship for civil engineering",
+                "scholarship for chemical engineering",
+                "list of scholarship",
+                "comps scholarship",
+                "IT scholarship",
+                "mechanical scholarship",
+                "civil scholarship",
+                "chemical scholarship",
+                "automobile scholarship",
+                "first year scholarship",
+                "second year scholarship",
+                "third year scholarship",
+                "fourth year scholarship"
+            ],
+            "responses": [
+                "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities  university  provide",
+                " university  facility",
+                "What are  university  facilities",
+                "facilities",
+                "facilities provided"
+            ],
+            "responses": [
+                "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+            ]
+        },
+        {
+            "tag": " university  intake",
+            "patterns": [
+                "max number of students",
+                "number of seats per branch",
+                "number of seats in each branch",
+                "maximum number of seats",
+                "maximum students intake",
+                "What is  university  intake",
+                "how many stundent are taken in each branch",
+                "seat allotment",
+                "seats"
+            ],
+            "responses": [
+                "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+            ]
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                " university  dress code",
+                " university  dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does  university  have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+            ]
+        },
+        {
+            "tag": "committee",
+            "patterns": [
+                "what are the different committe in  university ",
+                "different committee in  university ",
+                "Are there any committee in  university ",
+                "Give me committee details",
+                "committee",
+                "how many committee are there in  university "
+            ],
+            "responses": [
+                "For the various committe in  university  contact this number: ADD NUMBER"
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ]
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ]
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester starts",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "Holiday in these year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When is holidays",
+                "how long will be the vacation"
+            ],
+            "responses": [
+                "Academic calender is given to you by your class-soordinators after you join your respective classes"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+            ]
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?"
+            ]
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding  university ",
+                "You can ask me questions regarding  university , and i will try to answer them"
+            ]
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in  university ",
+                "does  university  have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging against",
+                "antiragging facility",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our  university  provides ragging free environment, and we have strict rules against ragging"
+            ]
+        },
+        {
+            "tag": "hod",
+            "patterns": [
+                "hod",
+                "hod name",
+                "who is the hod"
+            ],
+            "responses": [
+                "HODs differ for each branch, please be more specific like: (HOD it)"
+            ]
+        },
+        {
+            "tag": "academic_calendar",
+            "patterns": [
+                "What is the academic calendar?",
+                "Semester dates",
+                "Calendar of classes"
+            ],
+            "responses": [
+                "Our academic calendar provides information on important dates including semester start and end dates, holidays, and registration periods."
+            ]
+        },
+        {
+            "tag": "internship opportunities",
+            "patterns": [
+                "Are there internship opportunities?",
+                "Internship programs",
+                "How can I find internships?"
+            ],
+            "responses": [
+                "We offer internship programs and can assist you in finding relevant internship opportunities to gain practical experience."
+            ]
+        },
+        {
+            "tag": "student_projects",
+            "patterns": [
+                "Tell me about student projects",
+                "Innovative projects",
+                "Project exhibitions"
+            ],
+            "responses": [
+                "Our students engage in exciting projects some of which are showcased at project exhibitions It's a great way to see their innovative work."
+            ]
+        },
+        {
+            "tag": "library_resources",
+            "patterns": [
+                "What library resources are available",
+                "Library services",
+                "Access to research materials"
+            ],
+            "responses": [
+                "Our library provides access to a wide range of research materials, journals, and books to support your academic pursuits."
+            ]
+        },
+        {
+            "tag": "graduate programs",
+            "patterns": [
+                "Are there any graduate programs?",
+                "Master's degrees",
+                "Graduate studies"
+            ],
+            "responses": [
+                "yes we offer various graduate programs including M.Sc. and Ph.D. programs You can explore the options and admission requirements on our website."
+            ]
+        },
+        {
+            "tag": "student feedback",
+            "patterns": [
+                "how can I provide feedback",
+                "Feedback and suggestions",
+                "Student opinions"
+            ],
+            "responses": [
+                "we value your feedback You can provide feedback through our online feedback form or contact the department with your suggestions."
+            ]
+        },
+        {
+            "tag": "advising services",
+            "patterns": [
+                "tell me about academic advising",
+                "Academic counselors",
+                "Advising appointments"
+            ],
+            "responses": [
+                "our academic advising services can help you plan your academic journey select courses and make informed decisions."
+            ]
+        },
+        {
+            "tag": "career services",
+            "patterns": [
+                "How does the department assist with career development?",
+                "Career counseling",
+                "Job placement support"
+            ],
+            "responses": [
+                "We provide career services to assist students in job placement including resume building interview preparation and connecting with employers"
+            ]
+        },
+        {
+            "tag": "guest lectures",
+            "patterns": [
+                "Do you host guest lectures?",
+                "Guest speakers",
+                "Upcoming lectures"
+            ],
+            "responses": [
+                "Yes we frequently host guest lectures by industry experts and researchers Stay updated with our event calendar for upcoming lectures."
+            ]
+        },
+        {
+            "tag": "accommodations",
+            "patterns": [
+                "Are there on campus accommodations?",
+                "Student housing",
+                "Where can I stay?"
+            ],
+            "responses": [
+                "We provide information on nearby student housing options. While we don't have on-campus accommodations, there are options available in the vicinity."
+            ]
+        },
+    {
+        "tag": "computer science student",
+            "patterns": [
+                "what subjects are covered in the computer science program?",
+                "tell me about the curriculum for computer science",
+                "courses in computer science"
+            ],
+            "responses": [
+                "computer science program covers a wide range of subjects including programming, algorithms, databases, and more.",
+                "the curriculum includes courses on software development, data structures, and computer architecture.",
+                "you'll study topics like artificial intelligence, web development, and cybersecurity in the program."
+            ]
+        },
+        {
+            "tag": "programming languages",
+            "patterns": [
+                "which programming languages are taught?",
+                "languages in computer science program",
+                "programming courses"
+            ],
+            "responses": [
+                "students learn languages like Python, Java, and C++ as part of the program.",
+                "programming courses include Python, Java, C#, and JavaScript.",
+                "you'll be exposed to a variety of languages, including Python, C, and Ruby."
+            ]
+        },
+        {
+            "tag": "job prospects",
+            "patterns": [
+                "what are the job prospects for computer science graduates?",
+                "career opportunities after computer science",
+                "employment options in CS"
+            ],
+            "responses": [
+                "computer science graduates have excellent job prospects, with roles in software development, data analysis, and more.",
+                "you can work as a software engineer, data scientist, or network administrator after graduation.",
+                "job opportunities include software developer, database administrator, and IT consultant."
+            ]
+        },
+        {
+            "tag": "internships",
+            "patterns": [
+                "tell me about computer science internships",
+                "how to find internships in CS",
+                "internship opportunities"
+            ],
+            "responses": [
+                "students can find computer science internships through our career services office.",
+                "internship opportunities include positions in software development, cybersecurity, and data analysis.",
+                "our program offers internship support, helping students secure positions with tech companies."
+            ]
+        },
+        {
+            "tag": "hardware and software",
+            "patterns": [
+                "do you cover both hardware and software?",
+                "hardware in computer science program",
+                "software courses"
+            ],
+            "responses": [
+                "the program covers both hardware and software aspects, including computer architecture and programming.",
+                "you'll study hardware topics like computer organization and software subjects like algorithms.",
+                "we provide a well-rounded education in both hardware and software components of computer science."
+            ]
+        },
+        {
+            "tag": "academic support",
+            "patterns": [
+                "where can I get academic help in computer science?",
+                "tutoring for CS students",
+                "academic assistance"
+            ],
+            "responses": [
+                "academic support is available through our tutoring services for computer science students.",
+                "you can get assistance with assignments, programming projects, and exam preparation.",
+                "our department offers academic help to ensure your success in the program."
+            ]
+        },
+        {
+            "tag": "research opportunities",
+            "patterns": [
+                "are there research opportunities in computer science?",
+                "research projects for CS students",
+                "get involved in research"
+            ],
+            "responses": [
+                "students have the chance to engage in research projects in various areas of computer science.",
+                "explore research opportunities in machine learning, robotics, and computer networks.",
+                "get involved in exciting research work with our faculty and research teams."
+            ]
+        },
+        {
+            "tag": "career development",
+            "patterns": [
+                "how does the department assist with career development?",
+                "career counseling for CS students",
+                "job placement support"
+            ],
+            "responses": [
+                "we provide career services to assist students in job placement, including resume building, interview preparation, and connecting with employers.",
+                "career counseling is available to help you make informed career choices and plan your future.",
+                "our department offers job placement support, helping you find internships and full-time positions."
+            ]
+        },
+        {
+            "tag": "programming projects",
+            "patterns": [
+                "tell me about programming projects in the program",
+                "hands-on coding projects",
+                "coding assignments"
+            ],
+            "responses": [
+                "students work on a variety of programming projects, applying what they've learned in real-world scenarios.",
+                "you'll complete hands-on coding projects in areas like software development, web development, and more.",
+                "coding assignments are an integral part of the program to build practical skills."
+            ]
+        },
+        {
+            "tag": "student organizations",
+            "patterns": [
+                "are there computer science student organizations?",
+                "clubs for CS students",
+                "join student tech groups"
+            ],
+            "responses": [
+                "there are several computer science student organizations and clubs you can join to network and learn.",
+                "join groups focused on coding, AI, or cybersecurity to connect with peers who share your interests.",
+                "get involved in student tech groups and engage in tech-related activities outside the classroom."
+            ]
+        }   
+    ]
+    
+}
